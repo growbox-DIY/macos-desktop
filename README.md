@@ -18,6 +18,31 @@ Settings, the same colours, cards, rules and ESP API calls as the
 - **Reminders**: day 3 without a watering at 19:00, then from day 4 a
   time-sensitive alert every 2 h, 8:00-22:00.
 
+## Install with Claude (easiest)
+
+No coding needed: Claude installs the app for you and explains every step.
+
+You need:
+
+- a Mac with macOS 14 or newer,
+- the [Claude desktop app](https://claude.ai/download) with Claude Code
+  (the **Code** tab, included in paid Claude plans),
+- the controller's API token, and its address if you know it - ask the
+  person who set up the GrowBox controller.
+
+1. Open the Claude app, go to the **Code** tab and choose an empty folder.
+2. Paste this and press Enter:
+
+   ```
+   Install the GrowBox Mac app from https://github.com/growbox-DIY/macos-desktop for me. Follow the CLAUDE.md in that repo.
+   ```
+
+3. Answer Claude's questions and allow what macOS asks for (developer
+   tools, local network access).
+
+No Apple account is needed and the app does not expire. The step-by-step
+guide Claude follows is in [CLAUDE.md](CLAUDE.md).
+
 ## Setup
 
 Same settings file as the macOS widget, `~/.config/growbox/widget.json`:
